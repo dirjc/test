@@ -1,0 +1,26 @@
+pipeline {
+    agent any 
+
+    triggers {
+        pollSCM('*/3****')
+    }
+
+
+    // enviroment{
+        
+
+
+    // }
+
+
+    stages {
+        stage('Prepere') { 
+            agent any 
+
+            steps {
+                // 
+            }
+        }
+       
+    }
+}
